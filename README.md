@@ -21,9 +21,12 @@ Strange attractors can be formed in many ways, much like the Mandelbrot set, var
 
 The logistic map is a primary example of what and how a chaotic system works, the system works through bifurcation, and shows how in a small interval a system can become unpredictable with small manipulations. The logistic map is usually shown through a biological stand point, given by the equation:
 
+<p align="center">
 x_(n+1)=λx_n (1-x_n )
-
+</p>
+<p align="right">
 (Geoff Boeing 2015)
+</p> 
 
 With lambda (λ) being the fertility of a species, identified through the interval [0 4], and xn being the initial population of the species, given through the interval [0 1]. The logistic map has many structures embedded throughout the chaotic component, this plot shows how chaos can be a subset of a system, having predictable components and chaotic components, and also showing the strange attractors involved within. 
 
