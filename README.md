@@ -8,10 +8,12 @@ Chaos theory is the mathematical study of nonlinear systems, not all nonlinear s
 <p align="center">
   dx/dt=σ(y-x)
 </p> 
-
+<p align="center">
   dy/dt=ρx-xz-y
-
+</p>
+<p align="center">
   dz/dt=xy-βz
+</p> 
 
 A common set of values that make up these equations, and make up the Lorenz attractor are (σ = 10), (ρ = 28), (β = 8/3) (Paul Bourke 1997).
 
