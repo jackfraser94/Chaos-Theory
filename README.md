@@ -5,11 +5,13 @@ Chaos theory function created for MATLAB (Octave GUI)
 
 Chaos theory is the mathematical study of nonlinear systems, not all nonlinear systems are chaotic, but all chaotic systems are nonlinear. There are three classifications that make up the chaos theory, the first characteristic that it must be sensitive to initial conditions, this is a direct observation of the rounding that Edward Lorenz made on his Lorenz attractor, the small rounding error that manifested into a completely different system. The second characteristic is that it must be topologically mixing, this means that the system is continuously evolving over time, overlapping, and changing its dynamic. The third characteristic is that it must have dense periodic orbits, in many chaotic systems the chaos is a subset, meaning that it is attracted to a certain position, but not specifically finalising at that given position, the third characteristic is also known as the strange attractor, this was a prime example of the Lorenz attractor. Lorenz gave three equations that outline the workings;
 
-dx/dt=σ(y-x)
+<p align="center">
+  dx/dt=σ(y-x)
 
-dy/dt=ρx-xz-y
+  dy/dt=ρx-xz-y
 
-dz/dt=xy-βz
+  dz/dt=xy-βz
+</p> 
 
 A common set of values that make up these equations, and make up the Lorenz attractor are (σ = 10), (ρ = 28), (β = 8/3) (Paul Bourke 1997).
 
