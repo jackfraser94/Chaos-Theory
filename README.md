@@ -54,8 +54,22 @@ The purpose of this function is to show the difference between random systems an
 
 The final sub function in this program is not an interactive component, it simply plots a chaotic system next to a random system, with similar parameters to show the key distinctions between the two.
 
+## References
 
-
+- Peter Dizikes (2011). When the Butterfly Effect Took Flight. Retrieved from https://www.technologyreview.com/s/422809/when-the-butterfly-effect-took-flight/
+- Jonathan Borwein (2012) Explainer: What is Chaos Theory. Retrieved from http://theconversation.com/explainer-what-is-chaos-theory-10620
+- Encyclopaedia Britannica (2018) Chaos Theory. Retrieved from https://www.britannica.com/science/chaos-theory
+- Stephen Wolfram (2002) A New Kind of Science. Retrieved from https://www.wolframscience.com/reference/notes/971c
+- William Graham (2014) Nature is Both Ordered and Chaotic. Retrieved from http://www.freshvista.com/2014/natures-tangled-web-is-both-ordered-and-chaotic/
+- Kyle Hill (2013) Nietzsche’s Butterfly: An Introduction to Chaos Theory. Retrieved from https://www.nature.com/scitable/blog/student-voices/nietzsches_butterfly_an_introduction_to
+- Adam Kucharski (2013) Forecasting the Chaos of Tornadoes. Retrieved from https://theconversation.com/forecasting-the-chaos-of-tornadoes-14573
+- Luke Mastin (2010) 19th Century Mathematics – Poincare. Retrieved from http://www.storyofmathematics.com/19th_poincare.html
+- Physics Central (2018) Chaos Rules. Retrieved from http://physicscentral.com/explore/action/chaos.cfm
+- Meg Rosenberg (2018) Tag Archives: chaos theory. Retrieved from http://oceans.mit.edu/tag/chaos-theory
+- Chaosmath (2018) The Butterfly Effect. Retrieved from http://www.chaos-math.org/en/chaos-vii-strange-attractors
+- Glenn Elert (2018) Strange and Complex. Retrieved from https://hypertextbook.com/chaos/strange/
+- Geoff Boeing (2015) Chaos Theory and the Logistic Map. Retrieved from http://geoffboeing.com/2015/03/chaos-theory-logistic-map/
+- Paul Bourke (1997) The Lorenz Attractor in 3D. Retrieved from http://paulbourke.net/fractals/lorenz/
 
 
 
