@@ -44,7 +44,7 @@ The Lorenz attractor sub function is used in this program to show the Lorenz att
 
 - Logisticmap.m
 
-The logistic map sub function serves the same purpose as the Lorenz attractor, the user can define initial values for the population and fertility, and see if the population survives, balances out at a certain point(s). Or as the Lorenz attractor sab function the user can opt to see a visual of what the logistic map looks like between the accepted intervals, and in turn seeing the chaotic pattern it forms.
+The logistic map (bifurcation) sub function serves the same purpose as the Lorenz attractor, the user can define initial values for the population and fertility, and see if the population survives, balances out at a certain point(s). Or as the Lorenz attractor sab function the user can opt to see a visual of what the logistic map looks like between the accepted intervals, and in turn seeing the chaotic pattern it forms.
 
 - Random.m
 
@@ -53,6 +53,28 @@ The purpose of this function is to show the difference between random systems an
 - Comparison.m
 
 The final sub function in this program is not an interactive component, it simply plots a chaotic system next to a random system, with similar parameters to show the key distinctions between the two.
+
+## Files
+
+- `maincontrol.m`: Main control script for the program.
+- `lorenzattractor.m`: Subfunction for simulating the Lorenz attractor.
+- `logisticmap.m`: Subfunction for simulating the logistic map.
+- `randomsystem.m`: Subfunction for simulating a random system.
+- `compare.m`: Subfunction for comparing chaotic and random systems.
+
+## Usage
+
+1. Place all `.m` files in the same directory.
+2. Run `maincontrol.m` in Octave to start the program.
+
+## Testing Subfunctions
+
+Each subfunction can be run independently for testing:
+
+- `lorenzattractor`
+- `logisticmap`
+- `randomsystem`
+- `compare`
 
 ## References
 
