@@ -1,6 +1,7 @@
 # Chaos-Theory
 Chaos theory function created for MATLAB (Octave GUI) 
-[Archive Project] University project.
+
+**[Archive Project] University project.**
 
 
 ## Overview
