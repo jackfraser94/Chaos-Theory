@@ -66,10 +66,10 @@ where c is a complex parameter, and visualizing the points that remain bounded w
 The driven Van der Pol oscillator is a non-linear system exhibiting complex oscillatory behavior, described by the equation
 
 <p align="center">
-$$\ddot{x} - \mu (1 - x^2) \dot{x} + x = A \cos(\omega t)$$
+$\ddot{x} - \mu (1 - x^2) \dot{x} + x = A \cos(\omega t)$
 </p>  
 
-where \mu represents nonlinearity and A and \omega are the amplitude and frequency of the external driving force.
+where $\mu$ represents nonlinearity and A and $\omega$ are the amplitude and frequency of the external driving force.
 
 
 ## Files
