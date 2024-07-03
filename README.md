@@ -39,7 +39,7 @@ Knowing what randomness is, it allows us to distinguish between that and chaotic
 
 The program initially displays some information about the chaotic and random systems that are involved within the program, it then proceeds to ask the user to which program they would like to interact with, the main control primarily uses if statements based on the user input, the large portions of the program are done by the sub functions. The user can choose between two chaotic systems, which are the Lorenz attractor which highlights strange attractors in the chaos theory, and the logistic map, which highlights bifurcation in the chaos theory, both have distinctive patterns that will be used to show how the chaos theory works. Another sub function is the random sub function which is used as a comparison model to prove that chaos and randomness are two different characteristics. Embedded in the main control function though is the comparison aspect of the program, this is the part of the program that plots side by side a chaotic system, and a random system, with similar characteristics so that the user can see the key characteristics of both systems.
 
-## Sub-functions
+## Functions
 
 - Lorenzattractor.m
 
@@ -49,21 +49,30 @@ The Lorenz attractor sub function is used in this program to show the Lorenz att
 
 The logistic map (bifurcation) sub function serves the same purpose as the Lorenz attractor, the user can define initial values for the population and fertility, and see if the population survives, balances out at a certain point(s). Or as the Lorenz attractor sab function the user can opt to see a visual of what the logistic map looks like between the accepted intervals, and in turn seeing the chaotic pattern it forms.
 
-- Random.m
 
-The purpose of this function is to show the difference between random systems and chaotic systems, these three sub functions have the same properties of interactivity, but show different aspects of the way things are predicted and forecasted. 
+### Later added functions after modifying the original project.  
 
-- Comparison.m
+- mandelbrot.m
 
-The final sub function in this program is not an interactive component, it simply plots a chaotic system next to a random system, with similar parameters to show the key distinctions between the two.
+ The Mandelbrot set is a complex fractal defined by iterating the equation 
+ 
+ <p align="center">
+ z = z^2 + c 
+ </p>  
+ 
+ where c is a complex parameter, and visualizing the points that remain bounded within a certain threshold.
+
+- vanderpol.m
+
+The driven Van der Pol oscillator is a non-linear system exhibiting complex oscillatory behavior
 
 ## Files
 
-- `maincontrol.m`: Main control script for the program.
+- `maincontrol.m`: Main control script for the program. **Removed**
 - `lorenzattractor.m`: Subfunction for simulating the Lorenz attractor.
 - `logisticmap.m`: Subfunction for simulating the logistic map.
-- `randomsystem.m`: Subfunction for simulating a random system.
-- `compare.m`: Subfunction for comparing chaotic and random systems.
+- `mandelbrot.m`: Subfunction for simulating a random system.
+- `vanderpol.m`: Subfunction for comparing chaotic and random systems.
 
 ## Usage
 
