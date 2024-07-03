@@ -1,7 +1,7 @@
 # Chaos-Theory
 Chaos theory function created for MATLAB (Octave GUI) 
 
-**Originally created as a university project, I have since added some content**
+**Originally created as a university project, I have since added/removed some content**
 
 
 ## Overview
@@ -48,6 +48,8 @@ The Lorenz attractor sub function is used in this program to show the Lorenz att
 - Logisticmap.m
 
 The logistic map (bifurcation) sub function serves the same purpose as the Lorenz attractor, the user can define initial values for the population and fertility, and see if the population survives, balances out at a certain point(s). Or as the Lorenz attractor sab function the user can opt to see a visual of what the logistic map looks like between the accepted intervals, and in turn seeing the chaotic pattern it forms.
+
+![logisticmap](https://github.com/jackfraser94/Chaos-Theory/assets/24208519/1a55a2b9-3e97-4e60-8226-fa3d67b85365)
 
 
 ### Later added functions after modifying the original project.  
@@ -110,6 +112,3 @@ Each subfunction can be run independently for testing:
 - Glenn Elert (2018) Strange and Complex. Retrieved from https://hypertextbook.com/chaos/strange/
 - Geoff Boeing (2015) Chaos Theory and the Logistic Map. Retrieved from http://geoffboeing.com/2015/03/chaos-theory-logistic-map/
 - Paul Bourke (1997) The Lorenz Attractor in 3D. Retrieved from http://paulbourke.net/fractals/lorenz/
-
-
-
