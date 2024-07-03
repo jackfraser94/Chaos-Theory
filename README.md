@@ -52,19 +52,24 @@ The logistic map (bifurcation) sub function serves the same purpose as the Loren
 
 ### Later added functions after modifying the original project.  
 
-- mandelbrot.m
+- Mandelbrot Set
+The Mandelbrot set is a complex fractal defined by iterating the equation 
 
- The Mandelbrot set is a complex fractal defined by iterating the equation 
- 
- <p align="center">
- z = z^2 + c 
- </p>  
- 
- where c is a complex parameter, and visualizing the points that remain bounded within a certain threshold.
+<p align="center">
+$$z = z^2 + c$$
+</p>  
 
-- vanderpol.m
+where $$c$$ is a complex parameter, and visualizing the points that remain bounded within a certain threshold.
 
-The driven Van der Pol oscillator is a non-linear system exhibiting complex oscillatory behavior
+- Driven Van der Pol Oscillator
+The driven Van der Pol oscillator is a non-linear system exhibiting complex oscillatory behavior, described by the equation
+
+<p align="center">
+$$\ddot{x} - \mu (1 - x^2) \dot{x} + x = A \cos(\omega t)$$ 
+</p>  
+
+where $$\mu$$ represents nonlinearity and $$A$$ and $$\omega$$ are the amplitude and frequency of the external driving force.
+
 
 ## Files
 
