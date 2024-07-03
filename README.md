@@ -39,6 +39,8 @@ Knowing what randomness is, it allows us to distinguish between that and chaotic
 
 The program initially displays some information about the chaotic and random systems that are involved within the program, it then proceeds to ask the user to which program they would like to interact with, the main control primarily uses if statements based on the user input, the large portions of the program are done by the sub functions. The user can choose between two chaotic systems, which are the Lorenz attractor which highlights strange attractors in the chaos theory, and the logistic map, which highlights bifurcation in the chaos theory, both have distinctive patterns that will be used to show how the chaos theory works. Another sub function is the random sub function which is used as a comparison model to prove that chaos and randomness are two different characteristics. Embedded in the main control function though is the comparison aspect of the program, this is the part of the program that plots side by side a chaotic system, and a random system, with similar characteristics so that the user can see the key characteristics of both systems.
 
+Being an open source software we are limited by the visual output of the functions, MATLAB can offer more in terms of aesthetics, alterntively, a common langauge to use so that you can customise your visualisations is of course python. 
+
 ## Functions
 
 - Lorenzattractor.m
@@ -46,13 +48,16 @@ The program initially displays some information about the chaotic and random sys
 The Lorenz attractor sub function is used in this program to show the Lorenz attractor, to be able to play with the initial variables and see how differently the outcome can be. If the user opts for the Lorenz attractor they can specify if the program plots the Lorenz attractor, or if the user wants to change certain aspects of the plot. This sub function also has a sub function of its own, as exercise 8.2 outlines for solving nonlinear equations.
 
 ![lorentz](https://github.com/jackfraser94/Chaos-Theory/assets/24208519/cd4502c1-4412-44f9-bd63-9e49b1b9d89d)
- 
 
 A visualisation of the lorentz attractor, you can obviously do more with a plot like this, have it move from the initial conditions and illustrate the butterfly effect. However, the illustration stands as a simple showcase of how to obtain the final product.
 
 - Logisticmap.m
 
 The logistic map (bifurcation) sub function serves the same purpose as the Lorenz attractor, the user can define initial values for the population and fertility, and see if the population survives, balances out at a certain point(s). Or as the Lorenz attractor sab function the user can opt to see a visual of what the logistic map looks like between the accepted intervals, and in turn seeing the chaotic pattern it forms.
+
+![logisticmap](https://github.com/jackfraser94/Chaos-Theory/assets/24208519/1a55a2b9-3e97-4e60-8226-fa3d67b85365)
+
+The plot from this function shows the bifurcation, of course the results can be varied by altering the initial conditons, the number of iterations etc...
 
 ### Later added functions after modifying the original project.  
 
@@ -65,6 +70,9 @@ z = z^2 + c
 
 where c is a complex parameter, and visualizing the points that remain bounded within a certain threshold.
 
+![mandelbrot](https://github.com/jackfraser94/Chaos-Theory/assets/24208519/7dca657d-9e3b-4db9-91db-76959d89cfcc)
+
+
 - Driven Van der Pol Oscillator
 
 The driven Van der Pol oscillator is a non-linear system exhibiting complex oscillatory behavior, described by the equation
@@ -74,6 +82,8 @@ $\ddot{x} - \mu (1 - x^2) \dot{x} + x = A \cos(\omega t)$
 </p>  
 
 where $\mu$ represents nonlinearity and A and $\omega$ are the amplitude and frequency of the external driving force.
+
+![vanderpol](https://github.com/jackfraser94/Chaos-Theory/assets/24208519/1db1742b-474d-482e-8c95-59a523f05766)
 
 
 ## Files
