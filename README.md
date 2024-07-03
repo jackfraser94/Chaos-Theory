@@ -45,12 +45,21 @@ The program initially displays some information about the chaotic and random sys
 
 The Lorenz attractor sub function is used in this program to show the Lorenz attractor, to be able to play with the initial variables and see how differently the outcome can be. If the user opts for the Lorenz attractor they can specify if the program plots the Lorenz attractor, or if the user wants to change certain aspects of the plot. This sub function also has a sub function of its own, as exercise 8.2 outlines for solving nonlinear equations.
 
+<p align="center">
+![lorentz](https://github.com/jackfraser94/Chaos-Theory/assets/24208519/cd4502c1-4412-44f9-bd63-9e49b1b9d89d)
+</p>  
+
+A visualisation of the lorentz attractor, you can obviously do more with a plot like this, have it move from the initial conditions and illustrate the butterfly effect. However, the illustration stands as a simple showcase of how to obtain the final product.
+
 - Logisticmap.m
 
 The logistic map (bifurcation) sub function serves the same purpose as the Lorenz attractor, the user can define initial values for the population and fertility, and see if the population survives, balances out at a certain point(s). Or as the Lorenz attractor sab function the user can opt to see a visual of what the logistic map looks like between the accepted intervals, and in turn seeing the chaotic pattern it forms.
 
+<p align="center">
 ![logisticmap](https://github.com/jackfraser94/Chaos-Theory/assets/24208519/1a55a2b9-3e97-4e60-8226-fa3d67b85365)
+</p>  
 
+The plot from this function shows the bifurcation, of course the results can be varied by altering the initial conditons, the number of iterations etc...
 
 ### Later added functions after modifying the original project.  
 
