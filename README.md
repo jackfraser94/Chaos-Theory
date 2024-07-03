@@ -55,12 +55,6 @@ A visualisation of the lorentz attractor, you can obviously do more with a plot 
 
 The logistic map (bifurcation) sub function serves the same purpose as the Lorenz attractor, the user can define initial values for the population and fertility, and see if the population survives, balances out at a certain point(s). Or as the Lorenz attractor sab function the user can opt to see a visual of what the logistic map looks like between the accepted intervals, and in turn seeing the chaotic pattern it forms.
 
-<p align="center">
-![logisticmap](https://github.com/jackfraser94/Chaos-Theory/assets/24208519/1a55a2b9-3e97-4e60-8226-fa3d67b85365)
-</p>  
-
-The plot from this function shows the bifurcation, of course the results can be varied by altering the initial conditons, the number of iterations etc...
-
 ### Later added functions after modifying the original project.  
 
 - Mandelbrot Set
