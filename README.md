@@ -105,8 +105,8 @@ Each subfunction can be run independently for testing:
 
 - `lorenzattractor`
 - `logisticmap`
-- `randomsystem`
-- `compare`
+- `mandelbrot`
+- `vanderpol`
 
 ## References
 
